@@ -60,12 +60,9 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
-{% comment %}
 <h2 id="general">Registration</h2>
 
 [Please register through Eventbrite!](https://www.eventbrite.com/e/introductory-coding-workshop-software-carpentries-for-r-git-and-unix-tickets-1107071393339?aff=oddtdtcreator)
-{% endif %}
-
 
 <h2 id="general">General Information</h2>
 
