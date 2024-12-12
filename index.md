@@ -17,7 +17,6 @@ instructor: ["Sophia Aredas", "Alicia McElwee", "Augustus Pendleton", "Cassidy P
 helper: ["Calla Bush St. George", "Ana Fernandez Galliano", "Talyia Griffin", "Kailyn Hanke", "Kelly Miller", "Havi Rojer"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["arp277@cornell.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2025-01-14-Cornell-Micro  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite: 1107071393339          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -64,26 +63,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% comment %}
 <h2 id="general">Registration</h2>
 
-<div id="eventbrite-widget-container-1107071393339"></div>
-
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '1107071393339',
-        iframeContainerId: 'eventbrite-widget-container-1107071393339',
-
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
+[Please register through Eventbrite!](https://www.eventbrite.com/e/introductory-coding-workshop-software-carpentries-for-r-git-and-unix-tickets-1107071393339?aff=oddtdtcreator)
 {% endif %}
 
 
